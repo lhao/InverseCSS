@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release."
+type: software
+title: "InverseCSS: synthetic employer data from published government tables (Maryland pilot, 2021-2024)"
+authors:
+  - family-names: Hao
+    given-names: Lingxin
+    affiliation: Johns Hopkins University
+version: "1.0"
+date-released: 2026-11-13
+license: MIT
+abstract: >-
+  Code that builds synthetic county x six-digit industry x ownership x quarter employer
+  groups for Maryland, 2021-2024, from published BLS QCEW and Census QWI tables: suppressed
+  cells are imputed with Dirichlet-multinomial draws within published totals and raked
+  to state totals in the same draw, in M = 20 versions, with hide-and-check validation.
+  Code only; no data. Version 1.0 is the code behind the Sage Research Methods case
+  "Suppression Imputation and Joint Distributions With an AI Coding Agent".
+repository-code: "https://github.com/lhao/InverseCSS"
+keywords:
+  - suppression imputation
+  - raking
+  - Dirichlet-multinomial
+  - synthetic data
+  - QCEW
+  - QWI
