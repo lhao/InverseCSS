@@ -9,6 +9,7 @@ authors:
 version: "1.0"
 date-released: 2026-11-13
 license: MIT
+doi: 10.5281/zenodo.24209077
 abstract: >-
   Code that builds synthetic county x six-digit industry x ownership x quarter employer
   groups for Maryland, 2021-2024, from published BLS QCEW and Census QWI tables: suppressed

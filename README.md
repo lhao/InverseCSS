@@ -31,10 +31,10 @@ bash code/stage1_md.sh <output folder>
 ```
 Run from the project root (the folder that holds `code/` and `data/`). Results are reproducible given the seeds in the scripts and the same input files (check them against `docs/data_manifest.csv`).
 
-Reference environment for version 1.0: Python 3.11.5 with the packages in `code/requirements.txt` (NumPy 1.24.3). An independent rerun on Windows with Python 3.14 reproduced every reported result; fewer than one in 100,000 imputed values differed, by one job, where a value fell exactly on a rounding tie.
+Reference environment for version 1.0: Python 3.11.5 with the packages in `code/requirements.txt` (NumPy 1.24.3). An independent rerun of three of the stage-1 checks on Windows with Python 3.14 reproduced their results; fewer than one in 100,000 imputed values differed, by one job, where a value fell exactly on a rounding tie.
 
 API contact details are read from environment variables (for example `BLS_CONTACT_EMAIL`); never put keys or tokens in files.
 
 ## Citation and license
-Citation: please cite the archived release (see [`CITATION.cff`](CITATION.cff)): Hao, L. (2026). *InverseCSS* (Version 1.0) [Computer software]. Zenodo. DOI to be added at release.
+Citation: please cite the archived release (see [`CITATION.cff`](CITATION.cff)): Hao, L. (2026). *InverseCSS* (Version 1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24209077 (all versions: https://doi.org/10.5281/zenodo.24209076)
 License: MIT for the code (see [`LICENSE`](LICENSE)). The data sources keep their own terms (see `docs/DATA_SOURCES.md`).
