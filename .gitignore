@@ -1,0 +1,34 @@
+# Code only: no data of any kind in this repository (IPUMS terms; published tables are cited, not copied)
+data/
+drafts/
+students/
+*.csv
+!docs/data_manifest.csv
+!docs/external_downloads.csv
+*.csv.gz
+*.gz
+*.zip
+*.parquet
+*.feather
+*.dat
+*.dta
+*.sav
+*.xlsx
+*.xls
+*.pkl
+*.npz
+*.npy
+*.h5
+*.docx
+*.pdf
+# Environments, caches, OS files
+__pycache__/
+*.pyc
+.venv/
+envs/
+.DS_Store
+.ipynb_checkpoints/
+# Secrets: keys and tokens live in environment variables only
+.env
+*.pem
+*.key
